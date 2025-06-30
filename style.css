@@ -1,0 +1,39 @@
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(255, 250, 243);
+}
+h1{
+    cursor:default;
+    padding-left: 5%;
+}
+.contenedor{
+    padding-left: 5%;
+}
+.input{
+    margin: 5px;
+}
+.boton{
+    background-color: rgb(246, 255, 124);
+    color: rgb(180, 190, 41);
+    margin-left: 5px;
+    width: 240px;
+    height: 40px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: rgb(242, 255, 54);
+    color: rgb(126, 133, 36);
+}
+.tarjeta {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.tarjeta img {
+    width: 100%;
+}
+.card{
+    background-color:rgb(2246, 255, 124);
+}
